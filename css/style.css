@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    position: sticky;
+  
+}
+
+.btn{
+    border-radius: 30px;
+    
+}
+
+.hover-btn:hover{
+    background-color: #0D6EfD;
+    color: white;
+}
+
+.nav-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* slider */
+
+.slider{
+    background-image: url("../images/slider-1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-box{
+    padding: 60px 0px 60px 0px;
+    text-align: center;
+    color: white;
+}
+
+.slider-box h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.inner-slide{
+    background-color: white;
+    padding: 20px 20px 20px 40px;
+    border-radius: 50px ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .inner-slide-1{
+    display: flex;
+    flex-wrap: wrap;
+    
+} */
+
+li{
+    list-style: none;
+}
+
+.inner-slide input{
+ outline: none;
+ border: none;
+}
+
+.input-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/* featured-properties */
+
+.featured-properties{
+    padding: 100px 0px;
+}
+
+.card-box ul{
+    padding: 0px;
+}
+
+.card-box li{
+    padding: 0px 25px 0px 0px;
+}
+
+.card-box button{
+    padding: 10px 25px;
+    
+}
+
+.card-box h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-box-in{
+    margin: 0px 0px 10px 0px;
+}
+
+
+
+/* slider cards */
+
+.location{
+    padding: 0px 0px 100px 0px;
+}
+
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide{
+    height: 303px;
+    background-position: center;
+    background-size: cover!important;
+    border-radius: 20px;
+    padding: 10px;
+   position: relative;
+ max-width: 255px;
+
+  }
+
+  /* .back-img{
+    background-image: url("../images/location-1.jpg")!important;
+    height: 303px!important;
+    width: 100px;
+  } */
+
+  .inner-card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+  }
+
+  .slide-card .hover-btn{
+    border-radius: 100px;
+    padding: 0px 15px;
+  }
+
+  .slide-card-phone{
+    display: none;
+}
+.slide-card{
+    display: block;
+}
+
+/* services */
+
+.services{
+    padding: 0px 0px 100px 0px;
+}
+
+.card-img-top{
+    background-position: center;
+    background-size: cover;
+}
+
+.card-home{
+    width: 300px;
+}
+
+.card-home-box{
+ 
+    display: flex;
+    justify-content: center;
+}
+
+/* benifit */
+
+
+
+.box-icon{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 30px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.box-icon i{
+    font-size: 60px;
+    margin: 0px 30px 0px 0px;
+}
+
+.img-card{
+    margin-bottom: 20px;
+}
+
+.benifit-image img{
+    background-size: cover;
+    background-position: center;
+}
+
+.benifit-text a{
+    text-decoration: none;
+}
+
+.benifit-text i{
+    color: #0D6EfD;
+}
+
+.benifit-text{
+    max-width: 550px;
+}
+
+/*  properties */
+
+.property{
+    padding: 100px 0px;
+}
+
+.property button{
+    background-color: #0D6EfD;
+    color: #fff;
+}
+
+
+/* testimonial */
+
+.testimonial{
+    padding: 100px 0px;
+    background-color: #f3f7fd;
+}
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* .testimonial img{
+    border-radius: 100px;
+  height: 50px ;
+  width: 50px;
+} */
+
+.testimonial p{
+    font-size: 12px;
+}
+
+.img-testimonial{
+    height: 60px ;
+    width: 60px;
+}
+
+.testimonial span i{
+    font-size: 50px;
+}
+
+
+/* team */
+
+.team{
+    padding: 100px 0px;
+}
+
+/* company */
+
+.company{
+    padding: 0px 0px 100px 0px ;
+}
+
+/* blog*/
+
+.blog{
+    padding: 100px 0px;
+}
+
+/*  footer */
+
+.footer{
+    background-color: #161e2d;
+    color: white;
+}
+
+.top-footer{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-footer{
+    padding: 50px 0px;
+    border-style: solid ;
+    border-width: 1px 0px 1px 0px ;
+    border-color: grey;
+}
+
+.bottom-footer{
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-media{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+  
+}
+
+/* .footer ul, p{
+    opacity: 0.5;
+} */
+
+.bottom-footer li{
+    padding: 0px 5px;
+}
+
+.footer-ff-inner{
+    margin-right: 20px;
+}
+
+.input input{
+    padding: 10px 15px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+    background-color: #272d37;
+    width: 80%;
+    color: #eee;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: #272d37;
+    color: #eee; 
+}
+
+.bottom-footer a{
+    color: white;
+}
+
+.footer-ff a{
+    color: white;
+}
+
+.footer-media ul{
+    display: flex;
+
+}
+
+.footer-media li{
+    padding: 0px 8px ;
+    
+}
+
+.footer-media img{
+ background-color: #272d37;
+}
+
